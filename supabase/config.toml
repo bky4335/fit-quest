@@ -1,0 +1,5 @@
+project_id = "fitquest"
+
+# 새 방식의 publishable 키는 JWT가 아니라서, 공개 검색 함수는 JWT 검증을 끈다.
+[functions.nearby-facilities]
+verify_jwt = false
